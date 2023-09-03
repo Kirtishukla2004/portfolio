@@ -4,41 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kirti Shukla</title>
-    <style>
-      /* Add your CSS styles here */
-    </style>
+     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav class="navbar">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
+      <a href="#about" class="nav-elements">About</a>
+      <a href="#projects" class="nav-elements">Projects</a>
+      <a href="#experience" class="nav-elements">Experience</a>
+      <a href="#contact" class="nav-elements">Contact</a>
     </nav>
-    <header class="header">
-      <h1>Hello, I am Kirti</h1>
+   <section id="About"> <header class="header">
+      <img src="image/myphptp.jpg" class="profile_photo" alt="photo" width="200px" height="400px">
+     <div class="name_main">
+       <h1 class="name"> Hello, I am Kirti</h1>
       <p class="container">
         As a software engineer, my passion lies in creating innovative solutions
         through coding and problem-solving. While I may not have professional
         experience yet, I have dedicated a significant amount of time and effort
         to develop the skills required for this field.
-      </p>
+      </p></div>
     </header>
+  </section>
     <section id="projects" class="project-list">
+      <h1 class="project_heading"> Projects</h1>
       <ul class="project-list1">
-        <li><a href="#">Chat Bot </a></li>
-        <li><a href="#">Graphic Design</a></li>
-        <li><a href="#">Theme Calculator</a></li>
-        <li><a href="#">Rock Paper Scissors Game</a></li>
+        <li class="p1"><a href="#">Chat Bot </a></li>
+        <li class="p1"> <a href="#">Graphic Design</a></li>
+        <li class="p1"><a href="#">Theme Calculator</a></li>
+        <li class="p1"><a href="#">Rock Paper <br>Scissors Game</a></li>
       </ul>
       <ul class="project-list2">
-        <li><a href="#">Coin Flip</a></li>
-        <li><a href="#">Hand Scanner</a></li>
-        <li><a href="#">Student Management using C++</a></li>
+        <li class="p2"><a href="#">Coin Flip</a></li>
+        <li class="p2"><a href="#">Hand Scanner</a></li>
+        <li class="p2"><a href="#">Student Management <br>using C++</a></li>
       </ul>
     </section>
     <section id="experience" class="experience">
       <div class="experience-item">
+        <h1 class="exprience_head">Experience</h1>
         <h4 class="heading">Intern at Tech Access</h4>
         <p class="exp-content">
           During my 8-week internship at Tech Access, I immersed myself in a
@@ -57,7 +60,7 @@
         </p>
       </div>
       <section class="skill-list">
-        <h2>Skills and Certifications</h2>
+        <h1>Skills and Certifications</h1>
         <ul class="skill-set">
             <li>
                 <a href="#">Communication Skills</a>
@@ -118,7 +121,7 @@
     </section>
     
     <section id="contact" class="contact-form">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
       <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
