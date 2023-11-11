@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Antic", sans-serif;
+}
+
+section {
+  padding-left: 60px;
+}
+
+.navbar {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #745e4d;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar a {
+  color: #f8f7f4;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0 43px;
+}
+
+.navbar a:hover {
+  color: #151317;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+}
+
+.profile_photo {
+  width: 527px;
+  height: 509px;
+}
+
+.name {
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: #5b4f47;
+}
+
+.name_main {
+  margin-top: 10%;
+  padding-left: 334px;
+  padding-right: 170px;
+}
+
+.container {
+  padding-top: 10px;
+  font-size: 21px;
+  color: #5b4f47;
+}
+
+.project-list1,
+.project-list2 {
+  padding-left: 50px;
+  display: flex;
+  list-style: none;
+}
+
+.project_heading {
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+.p1,
+.p2 {
+  margin-left: 50px;
+  border: 1px solid #745e4d;
+  margin-top: 30px;
+  padding-top: 2px;
+  padding-bottom: 127px;
+  padding-left: 24px;
+  padding-right: 121px;
+  border-radius: 30px;
+  background-color: #7d634ee2;
+}
+
+a {
+  text-decoration: none;
+  color: #151317;
+  font-size: 23px;
+  cursor: pointer;
+}
